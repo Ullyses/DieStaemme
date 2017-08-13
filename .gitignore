@@ -2,3 +2,8 @@
 !.gitignore
 !FindSFGUI.cmake
 !README.md
+
+!client/
+!client/**
+!server/
+!server/**
