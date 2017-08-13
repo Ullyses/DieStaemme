@@ -5,12 +5,10 @@ project (DieStaemme)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 # add some c++ flags
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror -std=c++1z")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror -std=c++1y")
 
 include_directories("server/include")
 include_directories("client/include")
-
-set(CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR/libs}" ${CMAKE_PREFIX_PATH})
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 REQUIRED system window graphics)
